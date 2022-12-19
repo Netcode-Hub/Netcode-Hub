@@ -1,0 +1,80 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="~/bootstrap js and css/js/bootstrap.bundle.js"></script>
+    <link href="~/bootstrap js and css/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/Content/fontawesome/js/all.js"></script>
+    <link href="~/Content/fontawesome/css/all.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.6.0.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Multi-Vendor App</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        @if (Session["ad_id"] != null)
+                        {
+                            @Html.ActionLink("Create Category", "CreateCategory", "Admin", null, new { @class = "nav-link" })
+                        }
+                    </li>
+                    <li class="nav-item">
+                        @if (Session["ad_id"] != null)
+                        {
+                            @Html.ActionLink("View Category", "ViewCategory", "Admin", null, new { @class = "nav-link" })
+                        }
+                    </li>
+                    <li class="nav-item">
+                        @if (Session["ad_id"] == null)
+                        {
+                            @Html.ActionLink("Sign In", "Index", "Admin", null, new { @class = "nav-link" })
+                        }
+                    </li>
+                    <li class="nav-item">
+                        @if (Session["ad_id"] == null)
+                        {
+                            @Html.ActionLink("Sign Up", "Register", "Admin", null, new { @class = "nav-link" })
+                        }
+                    </li>
+                    <li class="nav-item">
+                        @if (Session["ad_id"] != null)
+                        {
+                            @Html.ActionLink("Sign Out", "SignOut", "Admin", null, new { @class = "nav-link" })
+                        }
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            @RenderBody()
+        </div>
+        <div class="row">
+            <div class="col-12 text-center card-footer">
+                <footer>
+                    <p>&copy; @DateTime.Now.Year - Multi - Vendor Application</p>
+                </footer>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+</html>

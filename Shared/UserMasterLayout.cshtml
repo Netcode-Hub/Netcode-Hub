@@ -1,0 +1,97 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="~/bootstrap js and css/js/bootstrap.bundle.js"></script>
+    <link href="~/bootstrap js and css/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/Content/fontawesome/js/all.js"></script>
+    <link href="~/Content/fontawesome/css/all.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.6.0.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Multi-Vendor App</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        @if (Session["u_id"] == null || Session["u_id"] != null)
+                        {
+                            @Html.ActionLink("Home", "Index", "User", null, new { @class = "nav-link" })
+                        }
+
+                    </li>
+                    <li class="nav-item">
+                        @Html.ActionLink("Category", "ViewCategory", "User", null, new { @class = "nav-link" })
+                    </li>
+                    <li class="nav-item">
+                        @if (Session["u_id"] != null)
+                        {
+                            @Html.ActionLink("Post Ad", "CreateAd", "User", null, new { @class = "nav-link" })
+                        }
+                    </li>
+                    <li class="nav-item">
+                        @if (Session["u_id"] == null)
+                        {
+                            @Html.ActionLink("Sign In", "Login", "User", null, new { @class = "nav-link" })
+                        }
+                    </li>
+                    <li class="nav-item">
+                        @if (Session["u_id"] == null)
+                        {
+                            @Html.ActionLink("Sign Up", "SignUp", "User", null, new { @class = "nav-link" })
+                        }
+                    </li>
+                    <li class="nav-item">
+                        @if (Session["u_id"] != null)
+                        {
+                            @Html.ActionLink("Sign Out", "SignOut", "User", null, new { @class = "nav-link" })
+                        }
+                    </li>
+                    <li class="nav-item">
+                        @using (@Html.BeginForm("Ads", "User"))
+                        {
+                            <div class="d-flex">
+                                <input class="form-control me-2" type="search" name="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit" id="SearchBtn">Search</button>
+                            </div>
+                        }
+                    </li>
+                </ul>
+
+
+            </div>
+
+        </div>
+    </nav>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="card-header"><i class="fa fa-shop text-danger"></i>&nbsp; &nbsp; <i class="fa fa-shopping-cart text-danger"></i> Sell with Us</div>
+            @RenderBody()
+        </div>
+        <div class="row">
+            <div class="col-12 text-center card-footer">
+                <footer>
+                    <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+                </footer>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+</html>
