@@ -1,0 +1,51 @@
+﻿@page "/BulletChart"
+
+<h3 class="text-primary fw-bold text-center mb-5"><i class="oi oi-media-play text-danger fs-3"></i>How to Create Bullet Chat</h3>
+<div class="container-fluid">
+    <div class="row mb-5">
+        <div class="text-center">
+            <SfBulletChart  DataSource="BulletChartData" ValueField="FieldValue" TargetField="TargetValue" Minimum="0" Maximum="500" Interval="50" Title="Revenue" Subtitle="(in dollars $)">
+                <BulletChartTooltip Enable="true" TValue="ChartData"></BulletChartTooltip>
+            </SfBulletChart>
+            
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="text-center">
+            <SfBulletChart DataSource="BulletChartData" ValueField="FieldValue" TargetField="TargetValue" Minimum="0" Maximum="500" Interval="100" Title="Revenue" Subtitle="(in dollars $)">
+                <BulletChartRangeCollection>
+                    <BulletChartRange End="150" Color="Red"></BulletChartRange>
+                    <BulletChartRange End="350" Color="Blue"></BulletChartRange>
+                    <BulletChartRange End="450" Color="Green"></BulletChartRange>
+                </BulletChartRangeCollection>
+                <BulletChartTooltip Enable="true" TValue="ChartData"></BulletChartTooltip>
+            </SfBulletChart>
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="text-center">
+          
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="text-center">
+           
+        </div>
+    </div>
+</div>
+
+
+
+@code {
+    public class ChartData
+    {
+        public double FieldValue { get; set; }
+        public double TargetValue {get; set;}
+    }
+
+    public List<ChartData> BulletChartData = new List<ChartData>()
+    {
+        new ChartData{FieldValue = 250, TargetValue=450}
+    };
+}
+

@@ -1,0 +1,95 @@
+﻿@page "/"
+
+<h3 class="text-primary fw-bold text-center mb-5"><i class="oi oi-media-play text-danger fs-3"></i>How to Create Polar, Radar, Bar and Bubble Charts</h3>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 mb-5">
+            <div class="text-center">
+                <h3 class="mb-2">Polar Chart</h3>
+                <SfChart Title="Car and Passengers statistics">
+                    <ChartPrimaryXAxis ValueType="Syncfusion.Blazor.Charts.ValueType.Category" LabelPlacement="@LabelPlacement.OnTicks"></ChartPrimaryXAxis>
+                    <ChartSeriesCollection>
+                        <ChartSeries Type="ChartSeriesType.Polar" DrawType="ChartDrawType.Line" DataSource="@ChartData" XName="Car" YName="Pasengers">
+                            <ChartMarker Visible="true" Height="7" Width="7"></ChartMarker>
+                        </ChartSeries>
+                    </ChartSeriesCollection>
+                    <ChartTooltipSettings Enable="true"></ChartTooltipSettings>
+                </SfChart>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-5">
+            <div class="text-center">
+                <h3 class="mb-2">Bar Chart</h3>
+                <SfChart Title="Car and Passengers statistics">
+                    <ChartPrimaryXAxis ValueType="Syncfusion.Blazor.Charts.ValueType.Category" LabelPlacement="@LabelPlacement.OnTicks"></ChartPrimaryXAxis>
+                    <ChartSeriesCollection>
+                        <ChartSeries Type="ChartSeriesType.Bar" DrawType="ChartDrawType.Column" DataSource="@ChartData" XName="Car" YName="Pasengers">
+                            <ChartMarker Visible="true" Height="7" Width="7"></ChartMarker>
+                        </ChartSeries>
+                    </ChartSeriesCollection>
+                    <ChartTooltipSettings Enable="true"></ChartTooltipSettings>
+                </SfChart>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-5">
+            <div class="text-center">
+                <h3 class="mb-2">Radar Chart</h3>
+                <SfChart Title="Car and Passengers statistics">
+                    <ChartPrimaryXAxis ValueType="Syncfusion.Blazor.Charts.ValueType.Category" LabelPlacement="@LabelPlacement.OnTicks"></ChartPrimaryXAxis>
+                    <ChartSeriesCollection>
+                        <ChartSeries Type="ChartSeriesType.Radar" DrawType="ChartDrawType.Scatter" DataSource="@ChartData" XName="Car" YName="Pasengers">
+                            <ChartMarker Visible="true" Height="7" Width="7"></ChartMarker>
+                        </ChartSeries>
+                    </ChartSeriesCollection>
+                    <ChartTooltipSettings Enable="true"></ChartTooltipSettings>
+                </SfChart>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-5">
+            <div class="text-center">
+                <h3 class="mb-2">Bubble Chart</h3>
+                <SfChart Title="Car and Passengers statistics">
+                <ChartPrimaryXAxis ValueType="Syncfusion.Blazor.Charts.ValueType.Category" LabelPlacement="@LabelPlacement.OnTicks"></ChartPrimaryXAxis>
+                    <ChartSeriesCollection>
+                        <ChartSeries Type="ChartSeriesType.Bubble" DrawType="ChartDrawType.Spline" DataSource="@ChartData" XName="Car" YName="Pasengers">
+                            <ChartMarker Visible="true" Height="7" Width="7"></ChartMarker>
+                        </ChartSeries>
+                    </ChartSeriesCollection>
+                    <ChartTooltipSettings Enable="true"></ChartTooltipSettings>
+                </SfChart>
+            </div>
+        </div>
+    
+    </div>
+
+    <div class="row mb-5">
+        <div class="text-center">
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="text-center">
+        </div>
+    </div>
+</div>
+
+
+
+@code {
+    public class ChartDataModel
+    {
+        public string Car { get; set; }
+        public int Pasengers { get; set; }
+    }
+
+    List<ChartDataModel> ChartData = new List<ChartDataModel>
+    {
+        new ChartDataModel{Car = "Saloon", Pasengers = 5},
+        new ChartDataModel{Car = "Ulvan", Pasengers = 12},
+        new ChartDataModel{Car = "Mini Bus", Pasengers = 24},
+        new ChartDataModel{Car = "Large Bus", Pasengers = 45},
+        new ChartDataModel{Car = "Carrier", Pasengers = 60}
+    };
+}

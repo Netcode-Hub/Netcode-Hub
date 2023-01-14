@@ -1,0 +1,91 @@
+﻿@page "/PieDoughnutPyramidFunnel"
+
+<h3 class="text-primary fw-bold text-center mb-5"><i class="oi oi-media-play text-danger fs-3"></i>How to Create Pie, Pyramid and Funnel Charts</h3>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 mb-5">
+            <div class="text-center">
+                <h3 class="mb-2">Pie Chart</h3>
+                <SfAccumulationChart Title="Car and Passengers Statistics">
+                    <AccumulationChartSeriesCollection>
+                        <AccumulationChartSeries Type="AccumulationType.Pie" DataSource="@ChartData" XName="Car" YName="Pasengers">
+                            <AccumulationDataLabelSettings Visible="true"></AccumulationDataLabelSettings>
+                            <AccumulationChartTooltipSettings Enable="true"> </AccumulationChartTooltipSettings>
+                        </AccumulationChartSeries>
+                    </AccumulationChartSeriesCollection>
+                </SfAccumulationChart>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-5">
+            <div class="text-center">
+                <h3 class="mb-2">Doughnut Chart</h3>
+                <SfAccumulationChart Title="Car and Passengers Statistics">
+                    <AccumulationChartSeriesCollection>
+                        <AccumulationChartSeries Type="AccumulationType.Pie" DataSource="@ChartData" XName="Car" YName="Pasengers" InnerRadius="40%">
+                            <AccumulationDataLabelSettings Visible="true"></AccumulationDataLabelSettings>
+                            <AccumulationChartTooltipSettings Enable="true"> </AccumulationChartTooltipSettings>
+                        </AccumulationChartSeries>
+                    </AccumulationChartSeriesCollection>
+                </SfAccumulationChart>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-5">
+            <div class="text-center">
+                <h3 class="mb-2">Pyramid Chart</h3>
+                <SfAccumulationChart Title="Car and Passengers Statistics">
+                    <AccumulationChartSeriesCollection>
+                        <AccumulationChartSeries Type="AccumulationType.Pyramid" DataSource="@ChartData" XName="Car" YName="Pasengers">
+                            <AccumulationDataLabelSettings Visible="true"></AccumulationDataLabelSettings>
+                            <AccumulationChartTooltipSettings Enable="true"> </AccumulationChartTooltipSettings>
+                        </AccumulationChartSeries>
+                    </AccumulationChartSeriesCollection>
+                </SfAccumulationChart>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-5">
+            <div class="text-center">
+                <h3 class="mb-2">Funnel Chart</h3>
+                <SfAccumulationChart Title="Car and Passengers Statistics">
+                    <AccumulationChartSeriesCollection>
+                        <AccumulationChartSeries Type="AccumulationType.Funnel" DataSource="@ChartData" XName="Car" YName="Pasengers">
+                            <AccumulationDataLabelSettings Visible="true"></AccumulationDataLabelSettings>
+                            <AccumulationChartTooltipSettings Enable="true"> </AccumulationChartTooltipSettings>
+                        </AccumulationChartSeries>
+                    </AccumulationChartSeriesCollection>
+                </SfAccumulationChart>
+            </div>
+        </div>
+    
+    </div>
+
+    <div class="row mb-5">
+        <div class="text-center">
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="text-center">
+        </div>
+    </div>
+</div>
+
+
+
+@code {
+    public class ChartDataModel
+    {
+        public string Car { get; set; }
+        public int Pasengers { get; set; }
+    }
+
+    List<ChartDataModel> ChartData = new List<ChartDataModel>
+    {
+        new ChartDataModel{Car = "Saloon", Pasengers = 5},
+        new ChartDataModel{Car = "Ulvan", Pasengers = 12},
+        new ChartDataModel{Car = "Mini Bus", Pasengers = 24},
+        new ChartDataModel{Car = "Large Bus", Pasengers = 45},
+        new ChartDataModel{Car = "Carrier", Pasengers = 60}
+    };
+}

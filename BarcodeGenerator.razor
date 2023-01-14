@@ -1,0 +1,38 @@
+﻿@page "/BarcodeGenerator"
+
+<br />
+<br />
+<h3 class="text-primary fw-bold text-center mb-5"><i class="oi oi-media-play text-danger fs-3"></i> How to Generate the following codes:</h3>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="text-center">
+                <h3 class="mb-2">Bar Code</h3>
+                @*<SfBarcodeGenerator Value="NETCODE123" Type="BarcodeType.Code39" Height="150px" Width="300px">
+                </SfBarcodeGenerator>*@
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="text-center">
+                <h3 class="mb-2">QR Code</h3>
+                @*<SfQRCodeGenerator Value="NETCODE123"  Height="150px" Width="300px">
+                    <QRCodeGeneratorDisplayText Visibility="true" Text="Netcode-Hub"></QRCodeGeneratorDisplayText>
+                </SfQRCodeGenerator>*@
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="text-center">
+                <h3 class="mb-2">Data Matrix Code</h3>
+                @*<SfDataMatrixGenerator Value="NETCODE123"  Height="150px" Width="300px">
+                    <DataMatrixGeneratorDisplayText Visibility="true" Text="Netcode-Hub"></DataMatrixGeneratorDisplayText>
+                </SfDataMatrixGenerator>*@
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@code {
+
+}
