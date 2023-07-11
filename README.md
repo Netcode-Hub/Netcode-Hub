@@ -1,5 +1,5 @@
-- 👋 Hi, I’m @Netcode-Hub
-- 👀 I’m Microsoft dotnet developer
+- 👋 Hi, We are @Netcode-Hub
+- 👀 We are Microsoft dotnet developers
 - Developing of the following:
     - Mobile Applications,
        -Personal, Office, Company, NGOs etc...
