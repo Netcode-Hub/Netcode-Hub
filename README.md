@@ -1,9 +1,23 @@
 - 👋 Hi, I’m @Netcode-Hub
-- 👀 I’m into  Web Design
-- 🌱 I’m currently teaching web design
+- 👀 I’m Microsoft dotnet developer
+- Developing of the following:
+    - Mobile Applications,
+       -Personal, Office, Company, NGOs etc...
+    - Desktop Applications,
+       -Intitutions | Schools, Hospitals, Churches, Markets, Shops etc...
+    - Websites
+        -Intitutions | Schools, Hospitals, Churches, Markets, Shops etc...
+        -Personal, Office, Company, NGOs etc... 
+    - Web-based Applications
+        -Intitutions | Schools, Hospitals, Churches, Markets, Shops etc...
+        -Personal, Office, Company, NGOs etc...
+- 🌱 
 - 💞️ 
-- 📫 How to reach me 
-https://github.com/Netcode-Hub/Netcode-Hub
+- 📫 How to reach Netcode-Hub 
+-GitHub | https://github.com/Netcode-Hub/Netcode-Hub
+-Twitter | https://twitter.com/NetcodeHub
+-Facebook | https://web.facebook.com/NetcodeHub
+-LinkedIn | https://www.linkedin.com/in/netcode-hub-90b188258/
 
 <!---
 Netcode-Hub/Netcode-Hub is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
