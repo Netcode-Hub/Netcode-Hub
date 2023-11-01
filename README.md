@@ -1,4 +1,5 @@
-I am Frederick Asante. Alias Netcode-Hub
+I am Frederick Asante. Alias Netcode-Hub.
+software engineer and Youtuber.
 - 📫 How to reach Netcode-Hub 
 -GitHub | https://github.com/Netcode-Hub/Netcode-Hub
 -Twitter | https://twitter.com/NetcodeHub
