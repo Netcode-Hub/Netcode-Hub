@@ -1,18 +1,4 @@
-- 👋 Hi, We are @Netcode-Hub
-- 👀 We are Microsoft dotnet developers
-- Developing of the following:
-    - Mobile Applications,
-       -Personal, Office, Company, NGOs etc...
-    - Desktop Applications,
-       -Intitutions | Schools, Hospitals, Churches, Markets, Shops etc...
-    - Websites
-        -Intitutions | Schools, Hospitals, Churches, Markets, Shops etc...
-        -Personal, Office, Company, NGOs etc... 
-    - Web-based Applications
-        -Intitutions | Schools, Hospitals, Churches, Markets, Shops etc...
-        -Personal, Office, Company, NGOs etc...
-- 🌱 
-- 💞️ 
+I am Frederick Asante. Alias Netcode-Hub
 - 📫 How to reach Netcode-Hub 
 -GitHub | https://github.com/Netcode-Hub/Netcode-Hub
 -Twitter | https://twitter.com/NetcodeHub
