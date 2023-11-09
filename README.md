@@ -9,6 +9,10 @@ Software engineer and Youtuber. <br/>
 -Facebook | https://web.facebook.com/NetcodeHub <br/>
 -LinkedIn | https://www.linkedin.com/in/netcode-hub-90b188258/ <br/>
 
+/You can buy a coffee for me to support the channel/ ☕️ <br/>
+https://www.buymeacoffee.com/NetcodeHub <br/>
+
+PEASE DO NOT FORGET TO STAR ANY REPOSITORY YOU VISIT <br/>
 <!---
 Netcode-Hub/Netcode-Hub is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
