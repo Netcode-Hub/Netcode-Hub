@@ -3,7 +3,7 @@
 I am Frederick Asante. Alias Netcode-Hub. <br/>
 From Ghana West Africa <br/>
 Software Developer and Teaching as Profession <br/>
-I offer Training or coaching to intrested Beginners of .NET Technologies with all frameworks (.NET 5+): <br/>
+I offer Training or coaching session to interested Beginners of .NET Technologies with all frameworks (.NET 5+): <br/>
         * Blazor Server</br>
         * Blazor Web Assembly <br/>
         * Maui Blazor Hybrid <br/>
