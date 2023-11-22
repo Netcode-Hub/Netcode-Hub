@@ -8,6 +8,8 @@ I offer Training or coaching session to interested Beginners of .NET Technologie
         * Blazor Web Assembly <br/>
         * Maui Blazor Hybrid <br/>
         * Maui <br/>
+        * .NET Core Web API <br/>
+        
 - 📫 Get intouch with Netcode-Hub <br/>
 -GitHub | https://github.com/Netcode-Hub/Netcode-Hub <br/>
 -Twitter | https://twitter.com/NetcodeHub <br/>
