@@ -1,8 +1,13 @@
-
 ![IMG_9279](https://github.com/Netcode-Hub/Netcode-Hub/assets/110794348/b54e5e3d-eec4-478d-9e45-6ccadd242f5f) <br/>
 
 I am Frederick Asante. Alias Netcode-Hub. <br/>
-Software engineer and Youtuber. <br/>
+From Ghana West Africa <br/>
+Software Developer and Teaching as Profession <br/>
+I offer Training or coaching to intrested Beginners or .NET Technologies with all frameworks (.NET 5+): <br/>
+        * Blazor Server</br>
+        * Blazor Web Assembly <br/>
+        * Maui Blazor Hybrid <br/>
+        * Maui <br/>
 - 📫 Get intouch with Netcode-Hub <br/>
 -GitHub | https://github.com/Netcode-Hub/Netcode-Hub <br/>
 -Twitter | https://twitter.com/NetcodeHub <br/>
