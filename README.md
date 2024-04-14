@@ -2,20 +2,24 @@
 # Netcode-Hub: Connecting Developers, Sharing Knowledge, and Building a Coding Community
 🌟 Meet Frederick Asante, also known as Netcode-Hub, hailing from the vibrant land of Ghana, West Africa. 🌍 As a seasoned Software Developer, Frederick brings a passion for empowering others through the expansive world of .NET Technologies. 🖥️✨
 🚀 Specializing in a myriad of frameworks within .NET 5 and beyond, Frederick offers engaging Training and Coaching sessions tailored to your growth. Dive into the realm of:
-- **Blazor Server**: Craft dynamic web applications with seamless interactivity.
-- **Blazor Web Assembly**: Explore the power of client-side Blazor for rich, responsive experiences.
-- **Maui Blazor Hybrid**: Uniting the best of Blazor with cross-platform capabilities for your applications.
-- **Maui**: Harness the potential of .NET Maui for versatile, native apps.
-- **.NET Core Web API**: Build robust APIs to fuel your applications with efficiency and reliability. 🌐💡
+1. **Blazor Server**: Craft dynamic web applications with seamless interactivity.
+2. **Blazor Web Assembly**: Explore the power of client-side Blazor for rich, responsive experiences.
+3. **Maui Blazor Hybrid**: Uniting the best of Blazor with cross-platform capabilities for your applications.
+4. **Maui**: Harness the potential of .NET Maui for versatile, native apps.
+5. **.NET Core Web API**: Build robust APIs to fuel your applications with efficiency and reliability. 🌐💡
+6. .NET 8: Experience the latest framework for Blazor, opening doors to even more possibilities! 🚀<br/>
 <b> Embark on a learning journey with Frederick Asante, where expertise meets enthusiasm, and innovation thrives. 🌟💻 Let's unlock the possibilities together! 🌿✨</b>
-        
+
+
+# [YouTube Channel](https://youtube.com/@Netcode-Hub?si=OEUyPMk9auFAd4vw) :"Netcode-Hub: Unleashing .NET Innovations 🌟"<br/>
+       
 # Introduction:
 Welcome to Netcode-Hub, the vibrant YouTube channel where code meets community, and learning becomes an interactive journey. I am Frederick Asante, your host and guide on this digital exploration. As a passionate software developer, my mission on Netcode-Hub extends beyond writing lines of code – it's about fostering a space where knowledge flows freely, developers connect, and everyone is empowered to grow.
 
 # The Vision:
 Netcode-Hub is not just a channel; it's a vision in motion. My aim is to create a virtual hub where developers of all skill levels come together to learn, share, and thrive. In the vast realm of software development, I believe that collaboration is key. Netcode-Hub is designed to be a platform that bridges the gap between seasoned developers and those just starting on their coding journey.
 
-#Sharing Knowledge:
+# Sharing Knowledge:
 One of the core pillars of Netcode-Hub is knowledge sharing. Through carefully crafted tutorials, live coding sessions, and in-depth discussions, I strive to make complex programming concepts accessible to all. Whether you are a beginner grappling with the basics or an experienced developer seeking to broaden your skill set, Netcode-Hub has something for everyone. The goal is not just to share information but to empower you to apply that knowledge in your own projects and endeavors.
 
 # Community Building:
